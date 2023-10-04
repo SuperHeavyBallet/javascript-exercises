@@ -1,6 +1,6 @@
 const removeFromArray = function(array, ...elementsToRemove) {
 
-    //Run Through Each Element in the given Array, if the Element Matches an Element in the Array of Elements to Remove, Change the element to X
+    //Run Through Each Element in the given Array, if the Element Matches an Element in the Array of '...Elements to Remove', Change the element to X
   
 for (let i = 0; i < array.length; i++)
 {

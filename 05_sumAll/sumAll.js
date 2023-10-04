@@ -17,8 +17,6 @@ const sumAll = function(...numbersToAdd) {
 
     else
     {
-    
-
         if (numbersToAdd[0] > numbersToAdd[1])
         {
           newNumbersToAdd[0] = numbersToAdd[1];
@@ -35,11 +33,9 @@ const sumAll = function(...numbersToAdd) {
         const lastInteger =  newNumbersToAdd[newNumbersToAdd.length -1];
         let runningTotal = 0;
 
-
         for (let i = 0; i <= lastInteger; i++)
         {
             runningTotal = runningTotal + i;
-            //console.log(runningTotal);
         }
     
 
